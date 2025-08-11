@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  padding: 50px 15px 0px;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.navLink {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #eef3ff;
+  text-decoration: none;
+  font-size: 14px;
+  color: #444;
+}
