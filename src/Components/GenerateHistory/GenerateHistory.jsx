@@ -12,7 +12,7 @@ export const GenerateHistory = () => {
       {data.map((text) => (
         <div key={text} className={qrStyles.qrWrapper}>
           <p>{text}</p>
-          <QRCodeSVG value={text} size={100} />
+          <QRCodeSVG value={text} size={200} />
         </div>
       ))}
     </div>

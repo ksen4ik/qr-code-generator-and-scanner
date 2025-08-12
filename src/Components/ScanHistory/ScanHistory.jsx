@@ -11,7 +11,7 @@ export const ScanHistory = () => {
     <div className={qrStyles.container}>
       {data.map((text) => (
         <div key={text} className={qrStyles.qrWrapper}>
-          <QRCodeSVG value={text} size={100} />
+          <QRCodeSVG value={text} size={200} />
           <p>{text}</p>
         </div>
       ))}

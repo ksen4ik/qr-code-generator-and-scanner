@@ -39,7 +39,7 @@ export const QRCodeGenerator = () => {
           className={qrStyles.input} />
         <button type='button' onClick={onClickHandler} className={qrStyles.button}>Сгенерировать QR</button>
       </div>
-      {result ? <QRCodeSVG value={value} /> : null}
+      {result ? <QRCodeSVG value={value}  /> : null}
     </div>
   );
 }
